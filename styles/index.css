@@ -1,0 +1,110 @@
+body{
+    background-color: #E5E5E5;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+    width: 100%;
+	height: 100vh;
+    background-color: white;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-rows: auto auto auto auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #007F5F;
+}
+.item-2 {
+    grid-column-start: 3 ;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #2B9348;
+    ;
+}
+.item-3 {
+    grid-column-start: 5 ;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #55A630;
+}
+.item-4 {
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #80B918;
+}
+.item-5 {
+    grid-column-start: 5 ;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: #AACC00;
+}
+.item-6 {
+    grid-column-start: 5 ;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: #BFD200;
+}
+.item-7 {
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #D4D700;
+}
+.item-8 {
+    grid-column-start: 3 ;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #DDDF00;
+}
+.item-9 {
+    grid-column-start: 3 ;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #EEEF20;
+}
+.item-10 {
+    grid-column-start: 4 ;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: #FFFF3F;
+}
+.item-11 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: #007F5F;
+}
+ header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #9BC1BC;
+    align-self: flex-start;
+    width: 1250px;
+    height: 100px;
+ }
